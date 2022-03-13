@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public title: string = 'Counter App';
+  public number:number = 5;
+
+  public accumulate( value: number ) {
+    this.number += value;
+  }
 }
